@@ -1,8 +1,8 @@
 /* Basic Style */
 .body {
   background-color: #f8f8f8;
-  color: #333;
-  font-family: Lato, sans-serif;
+  color: #303030;
+  font-family: "Lato", sans-serif;
 }
 
 .header {
@@ -68,25 +68,25 @@
 .add-item__btn {
   background: none;
   border: 0px;
-  color: #888;
+  color: #808080;
   font-size: 15px;
   width: 60px;
-  font-family: Lato, sans-serif;
+  font-family: "Lato", sans-serif;
   cursor: pointer;
 }
 
 .btn:hover,
 .add-item__btn:hover {
-  color: #3a3A3a;
+  color: #3a3a3a;
 }
 
 /* Heading */
 .h3,
 .label[for="new-task"] {
-  color: #333;
+  color: #303030;
   font-weight: 700;
   font-size: 15px;
-  border-bottom: 2px solid #333;
+  border-bottom: 2px solid #303030;
   padding: 30px 0 10px;
   margin: 0;
   text-transform: uppercase;
@@ -98,15 +98,15 @@
   line-height: 18px;
   height: 21px;
   padding: 0 9px;
-  border: 1px solid #dDd;
-  background: #FFF;
+  border: 1px solid #d0d0d0;
+  background: #ffffff;
   border-radius: 6px;
-  font-family: Lato, sans-serif;
-  color: #888;
+  font-family: "Lato", sans-serif;
+  color: #808080;
 }
 
 .input[type="text"]:focus {
-  color: #333;
+  color: #303030;
 }
 
 /* New Task */
@@ -123,7 +123,7 @@
 .li {
   overflow: hidden;
   padding: 20px 0;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #e0e0e0;
 
   display: flex;
   justify-content: space-between;
@@ -159,7 +159,7 @@
 /* Completed */
 .ul#completed-tasks .label {
   text-decoration: line-through;
-  color: #888;
+  color: #808080;
 }
 
 /* Edit Task */
