@@ -12,11 +12,11 @@
   text-align: right;
 }
 
-.header .img {
+.header__img {
   width: 100%;
 }
 
-.header .more-inf {
+.header__link {
   font-family: fantasy, cursive;
 }
 
@@ -26,7 +26,7 @@
   }
 }
 
-.section {
+.add-item {
   margin-top: 23px;
 }
 
@@ -42,7 +42,7 @@
   flex-grow: 1
 }
 
-.task-row-wrapper {
+.add-item__div {
   margin-top: 20px;
   margin-bottom: 15px;
   display: flex;
@@ -59,11 +59,13 @@
 }
 
 .input,
-.btn {
+.btn,
+.add-item__btn {
   outline: none;
 }
 
-.btn {
+.btn,
+.add-item__btn {
   background: none;
   border: 0px;
   color: #888;
@@ -73,7 +75,8 @@
   cursor: pointer;
 }
 
-.btn:hover {
+.btn:hover,
+.add-item__btn:hover {
   color: #3a3A3a;
 }
 
