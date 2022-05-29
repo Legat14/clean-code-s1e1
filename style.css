@@ -28,6 +28,10 @@
 
 }
 
+.section {
+  margin-top: 23px;
+}
+
 .centered-main-page-elem {
   display: block;
   width: 500px;
@@ -41,6 +45,8 @@
 }
 
 .task-row-wrapper {
+  margin-top: 20px;
+  margin-bottom: 15px;
   display: flex;
 }
 
@@ -125,18 +131,18 @@
   vertical-align: middle;
 }
 
-.li>.input[type="checkbox"] {
+.li > .input[type="checkbox"] {
   margin: 0 10px;
 }
 
-.li>.label {
+.li > .label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.li>.input[type="text"] {
+.li > .input[type="text"] {
   width: 226px
 }
 
@@ -153,7 +159,7 @@
 /* Completed */
 .ul#completed-tasks .label {
   text-decoration: line-through;
-  color: #888; /*TODO: Сделать зачеркивание*/
+  color: #888;
 }
 
 /* Edit Task */
