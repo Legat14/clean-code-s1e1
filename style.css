@@ -59,11 +59,11 @@
 }
 
 .input,
-.button {
+.btn {
   outline: none;
 }
 
-.button {
+.btn {
   background: none;
   border: 0px;
   color: #888;
@@ -73,7 +73,7 @@
   cursor: pointer;
 }
 
-.button:hover {
+.btn:hover {
   color: #3a3A3a;
 }
 
@@ -143,13 +143,13 @@
   width: 226px
 }
 
-.button.delete .img {
+.btn.delete .img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.button.delete .img:hover {
+.btn.delete .img:hover {
   transform: rotateZ(0);
 }
 
